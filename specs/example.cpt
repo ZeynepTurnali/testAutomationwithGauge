@@ -1,0 +1,18 @@
+# <username> kullanıcı adı ve <password> şifre ile giriş yap
+* "//a[@href='javascript:;'][contains(.,'Giriş Yap')]" alanının üzerine kaydır.
+* "login" id li alana tıkla
+* "email" id li alana <username> ifadesini yaz.
+* "password" id li alana <password> ifadesini yaz.
+* "//button[@type='submit'][contains(.,'Giriş')]" XPath li alana tıkla
+* "2" bekle
+
+# <key> için arama yap
+* "productSearch" id li alana <key> ifadesini yaz.
+* "buttonProductSearch" id li alana tıkla
+
+# Aranan ilk ürüne tıkla
+* ".box.product" alanına kaydır ve tıkla..
+
+# Aranan ilk ürünü sepete ekle ve sepete git
+* "addToCart" id li alana tıkla
+* "4" bekle

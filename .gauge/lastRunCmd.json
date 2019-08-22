@@ -1,0 +1,8 @@
+[
+	"/Users/testinium/testinium/nodejs/bin/gauge",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"/Users/testinium/Documents/workspace/testautomationwithgauge/specs/example.spec:22"
+]
